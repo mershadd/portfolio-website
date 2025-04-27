@@ -1,0 +1,91 @@
+[
+    {
+        "position": "Electrical Engineering",
+        "company": "Universitas Indonesia",
+        "years": "2019 - 2023",
+        "type": "Bachelor",
+        "typebg": 1,
+        "start": 2019,
+        "tools": "Test",
+        "skills": 1,
+        "tasks": [
+            "Taking Electronics Engineering specialization",
+            "Final GPA: 3.52/4.00",
+            "Taking a thesis in the field of wireless power and data transfer with the title: DESIGN AND CONSTRUCTION OF CLASS E WIRELESS POWER AND DATA TRANSFER TRANSMITTER WITH HIGH EFFICIENCY USING A SINGLE COIL AT 10 MHZ FREQUENCY.",
+            "Parcipitate in 8 student event and 2 student organization"
+        ]
+    },
+    {
+        "position": "Natural Science",
+        "company": "SMA Islam Al Azhar 3 Jakarta",
+        "years": "2017 - 2019",
+        "type": "Senior High School",
+        "typebg": 1,
+        "start": 2017,
+        "tools": "Test",
+        "skills": 1,
+        "tasks": [
+            "Member of Band Group as a Bassist",
+            "Member of Choir Group",
+            "Member of Dewan Ambalan Scout Group",
+            "1nd place in the Treffentres Cup 2018 in the band competition",
+            "2nd place in Olimpiade Sains Al Azhar 2019 in the Computer field"
+
+        ]
+    },
+    {
+        "position": "AWS General Immersion Day Participant",
+        "company": "AWS WWCS Solution Architect",
+        "years": "2024",
+        "type": "Training",
+        "typebg": 3,
+        "start": 2024,
+        "tools": "Test",
+        "skills": 3,
+        "tasks": "Explored AWS foundational services, key security concepts, and architecture best practices through a combination of service overviews and hands-on labs led by AWS experts. The labs were divided into basic and advanced modules — the basic modules covered the core features of AWS services, while the advanced modules demonstrated how to integrate these services to build architectures such as a 3-tier web application."
+    },
+    {
+        "position": "Fullstack Developer Program",
+        "company": "Hacktiv8",
+        "years": "2024",
+        "type": "Bootcamp",
+        "typebg": 2,
+        "start": 2024,
+        "tools": "Test",
+        "skills": 2,
+        "tasks": "Completed an intensive 6-month Full Stack Developer Bootcamp at Hacktiv8, designed in alignment with current industry needs. The curriculum combined technical training with personal development, including 1-on-1 mentoring with professional instructors and sessions to build a growth mindset. Gained hands-on experience in both front-end and back-end development using technologies such as HTML, CSS, JavaScript, Vue.js, Bootstrap, Node.js, Express.js, GraphQL, PostgreSQL, and Sequelize. This immersive program emphasized real-world problem solving, collaborative projects, and the development of both technical and soft skills essential for a career in software engineering."
+    },
+    {
+        "position": "Bootcamp Machine Learning & AI for Beginner Batch 7",
+        "company": "DQLab",
+        "years": "2023",
+        "type": "Bootcamp",
+        "typebg": 2,
+        "start": 2023,
+        "tools": ["Streamlit", "Python", "Google Collab", "scikit-learn"],
+        "skills": 2,
+        "tasks": "I completed a comprehensive course in Machine Learning & AI, which covered the end-to-end development of intelligent systems—from foundational concepts to model deployment. The program included sessions on Machine Learning & AI fundamentals, hands-on model building, hyperparameter tuning, and deployment techniques. As part of the final phase, I implemented a real-world project: Heart Disease Detection Model Deployment using Streamlit, showcasing my ability to build, optimize, and deploy machine learning models. The course also emphasized portfolio development and practical implementation, preparing me for real-world applications in AI and data-driven technologies."
+    },
+    {
+        "position": "Kredensial Mikro Mahasiswa Indonesia 2021: Network Security Penetration Testing",
+        "company": "Universitas Indonesia",
+        "years": "2022",
+        "type": "Training",
+        "typebg": 3,
+        "start": 2022,
+        "tools": "Test",
+        "skills": 3,
+        "tasks": "As part of the MBKM KMMI 2021 program, I participated in the Network Security Penetration Testing course offered by the Faculty of Engineering at Universitas Indonesia in collaboration with CISCO Networking Academy. This industry-driven course is designed to equip students with practical and theoretical knowledge in cybersecurity, aligned with the demands of Industry 4.0. With a comprehensive, hands-on curriculum and expert instructors, the course prepares students for internationally recognized certifications such as Cisco CyberOps. Through the Netacad.com learning platform, all course materials and labs are centralized, ensuring a structured and immersive learning experience in the fields of computer networking and cybersecurity."
+    },
+    {
+        "position": "Fresh Graduate Academy: Core System Administration",
+        "company": "Digital Talent Scholarship",
+        "years": "2021",
+        "type": "Training",
+        "typebg": 3,
+        "start": 2021,
+        "tools": ["VirtualBox", "Red Hat OS", "Podman"],
+        "skills": 3,
+        "tasks": "Learn about Red Hat Enterprise Linux (RHEL) Starting from how to install, set, do troubleshooting and maintenance."
+    }
+]

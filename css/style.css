@@ -1,0 +1,17 @@
+#hero {
+    /* background-image: linear-gradient(to right, #030409 0 85%, #4d61a0 85% 100%); */
+    background: linear-gradient(to right, #030409 92%, #4b5f9c 90%);
+}
+
+#profile {
+    width: 70%;     /* or 50%, or vw/vh units */
+    height: 90%;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    #hero {
+        /* background-image: linear-gradient(to right, #030409 0 85%, #4d61a0 85% 100%); */
+        background: #030409 
+    }
+}
