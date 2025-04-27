@@ -34,7 +34,7 @@
         "typebg": 1,
         "start": 23112410,
         "tools": ["Node JS", "Express JS", "Javascript", "Typescript", "Vue JS", "HTML", "CSS", "Bootstrap", "Swagger", "Nest JS", "GraphQL", "PostgresSQL"],
-        "skills": [5, 6, 7],
+        "skills": [5, 6],
         "tasks": [
             "Participated in an intensive 6-month Full Stack Developer Bootcamp at Hacktiv8, gaining hands-on experience with HTML, CSS, JavaScript, Node.js, Express.js, GraphQL, Vue.js, PostgresSQL, and Bootstrap.",
             "Acted as Frontend Developer in the final bootcamp project, building a Doctor Appointment Website using Vue.js.",
@@ -138,7 +138,7 @@
         "type": "Project",
         "typebg": 4,
         "start": 22052212,
-        "tools": ["BTS7960", "ESP32", "Ultrasonic Sensor", "DC Motor"],
+        "tools": ["BTS7960", "ESP32", "Ultrasonic Sensor", "DC Motor", "Blynk"],
         "skills": [10, 11, "Automation Engineering"],
         "tasks": "Developed an automated solar panel cleaning system that uses sensor-based logic to determine when cleaning is needed, enhancing panel efficiency and reducing manual maintenance. The system operates along vertical solar arrays, using a DC motor controlled by a BTS7960 driver and an ultrasonic sensor, all managed by an ESP32 microcontroller. Cleaning cycles are scheduled using a programmable timer (via Blynk), allowing the system to remain on standby until the designated interval is reached. Once triggered, the motor activates and moves the cleaning mechanism across the panels, automatically stopping when the end of the array is detected. This solution provides a scalable, low-maintenance approach to keeping solar panels dust-free and operating at optimal performance."
     },    
@@ -160,8 +160,8 @@
         "type": "Project",
         "typebg": 4,
         "start": 23042305,
-        "tools": ["ESP32", "HTML", "Power Supply", "MySQL", "PHP", "CSS", "BLE", "XAMPP"],
-        "skills": [10, 11, 12, 13, 7],
+        "tools": ["ESP32", "HTML", "MySQL", "PHP", "CSS", "BLE", "XAMPP"],
+        "skills": [10, 11, 12, 13, 5, 6],
         "tasks": "Designed and developed a Smart Door Lock System powered by Bluetooth Low Energy (BLE) and integrated with a REST API for real-time database logging. Built on the ESP32 platform, the system detects user proximity via RSSI, enabling seamless unlocking while securely logging BLE device addresses to a web server through HTTP POST requests. The locking mechanism uses a 12V Solenoid Door Lock controlled by a relay module, which is triggered by the ESP32. The web server features an HTML frontend and a PHP backend, deployed using Apache and MySQL with phpMyAdmin, all managed through XAMPP. This project enhances both convenience and security with remote monitoring and data-driven access control, and includes a performance and power consumption comparison with traditional RFID-based lock systems to demonstrate BLE's efficiency and scalability."
     },
     {
@@ -174,5 +174,38 @@
         "tools": ["Arduino Uno", "Arduino IDE", "16x02 LCD", "MPU6050", "Soldering"],
         "skills": [10],
         "tasks": "Developed a  a respiration rate monitoring system using Arduino, an MPU6050 sensor, and an LCD display. The MPU6050, combining accelerometer and gyroscope functionality, detects chest movement to monitor breathing. A moving average filter processes the oscillating signal to calculate breaths per minute, which are then displayed in real-time on the LCD. The system was finalized on a custom prototype PCB with all connections soldered for stability and reliability. This project showcases a practical, non-invasive solution for tracking respiratory activity with embedded systems."
+    },
+    {
+        "position": "Automatic Baby BMI Calculator",
+        "company": "Ruang Elektro",
+        "years": "Jan 2023 - Feb 2023",
+        "type": "Freelance",
+        "typebg": 3,
+        "start": 23012302,
+        "tools": ["Arduino Uno", "Arduino IDE", "16x02 LCD", "Load Cell Sensor", "Soldering"],
+        "skills": [10],
+        "tasks": "One of my client requested a baby scales that can automatically calculate the BMI just by determining the weight and height of a baby. The system use arduino for calculating BMI and LCD for displays For measuring weight, the arduino use 4 load cell that connect to a junction box, and for height, the arduino use laser distance sensor."
+    },
+    {
+        "position": "Arduino-based Fire Detector CO2, CO, and O2 sensor",
+        "company": "Ruang Elektro",
+        "years": "May 2024 - Jul 2024",
+        "type": "Freelance",
+        "typebg": 3,
+        "start": 24052407,
+        "tools": ["Arduino Uno", "Arduino IDE", " MQ-9", "DFrobot NDIR CO2 sensor", "electrochemical O2 sensor"],
+        "skills": [10],
+        "tasks": "working on an advanced fire detection system using Arduino, integrated with DFrobot NDIR CO2 sensor, electrochemical O2 sensor, and MQ-9 sensor. This setup ensures early and accurate detection of fire hazards by monitoring key gases like CO2, CO, and O2. The system outputs data via serial communication, seamlessly displayed in Microsoft Excel, enhancing safety and response times. Excited about combining hardware and software for real-time monitoring and improved fire safety!"
+    },
+    {
+        "position": "IoT based Pulse Oximeter",
+        "company": "Ruang Elektro",
+        "years": "Jun 2021 - Jul 2021",
+        "type": "Freelance",
+        "typebg": 3,
+        "start": 21062107,
+        "tools": ["ESP32", "Arduino IDE", " MAX30102", "Blynk"],
+        "skills": [10, 11],
+        "tasks": "An ESP32-based Pulse Oximeter leverages the MAX30102 sensor to accurately measure blood oxygen levels (SpO2) and heart rate. This portable and efficient health monitoring device transmits real-time data to the Blynk application, allowing users to conveniently track their health metrics on their smartphones. This smart device uses the MAX30102 sensor to measure your blood oxygen levels and heart rate, sending real-time data to the Blynk app on your phone. To save energy, it automatically enters deep sleep mode when not in use, making it perfect for continuous monitoring."
     }
 ]

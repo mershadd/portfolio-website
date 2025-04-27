@@ -6,7 +6,7 @@
         "type": "Bachelor",
         "typebg": 1,
         "start": 2019,
-        "tools": "Test",
+        "tools": ["Calculus", "Linear Algebra", "Vector Calculus", "Basic Differential Equations", "University Physics", "Electromagnetics", "Circuit Analysis", "Basic Programming + P", "Signal & System", "Data Structure", "Computer Networks", "Embedded System", "Internet of Things", "Microprocessor & Microcontroller", "Basic Telecommunication Engineering", "Basic Control Engineering", "Basic Power Engineering", "VLSI", "Nanoelectronics", "Semiconductor", "Electric Materials", "Electric Measurements", "Semiconductor Fabrication", "Optoelectronics", "Power Electronics", "Probability and Stochastics", "Electronic Circuit"],
         "skills": 1,
         "tasks": [
             "Taking Electronics Engineering specialization",
@@ -22,11 +22,11 @@
         "type": "Senior High School",
         "typebg": 1,
         "start": 2017,
-        "tools": "Test",
+        "tools": [""],
         "skills": 1,
         "tasks": [
-            "Member of Band Group as a Bassist",
-            "Member of Choir Group",
+            "Member of School Band Group as a Bassist",
+            "Member of School Choir Group",
             "Member of Dewan Ambalan Scout Group",
             "1nd place in the Treffentres Cup 2018 in the band competition",
             "2nd place in Olimpiade Sains Al Azhar 2019 in the Computer field"
@@ -40,7 +40,7 @@
         "type": "Training",
         "typebg": 3,
         "start": 2024,
-        "tools": "Test",
+        "tools": [""],
         "skills": 3,
         "tasks": "Explored AWS foundational services, key security concepts, and architecture best practices through a combination of service overviews and hands-on labs led by AWS experts. The labs were divided into basic and advanced modules — the basic modules covered the core features of AWS services, while the advanced modules demonstrated how to integrate these services to build architectures such as a 3-tier web application."
     },
@@ -51,7 +51,7 @@
         "type": "Bootcamp",
         "typebg": 2,
         "start": 2024,
-        "tools": "Test",
+        "tools": [""],
         "skills": 2,
         "tasks": "Completed an intensive 6-month Full Stack Developer Bootcamp at Hacktiv8, designed in alignment with current industry needs. The curriculum combined technical training with personal development, including 1-on-1 mentoring with professional instructors and sessions to build a growth mindset. Gained hands-on experience in both front-end and back-end development using technologies such as HTML, CSS, JavaScript, Vue.js, Bootstrap, Node.js, Express.js, GraphQL, PostgreSQL, and Sequelize. This immersive program emphasized real-world problem solving, collaborative projects, and the development of both technical and soft skills essential for a career in software engineering."
     },
@@ -73,7 +73,7 @@
         "type": "Training",
         "typebg": 3,
         "start": 2022,
-        "tools": "Test",
+        "tools": [""],
         "skills": 3,
         "tasks": "As part of the MBKM KMMI 2021 program, I participated in the Network Security Penetration Testing course offered by the Faculty of Engineering at Universitas Indonesia in collaboration with CISCO Networking Academy. This industry-driven course is designed to equip students with practical and theoretical knowledge in cybersecurity, aligned with the demands of Industry 4.0. With a comprehensive, hands-on curriculum and expert instructors, the course prepares students for internationally recognized certifications such as Cisco CyberOps. Through the Netacad.com learning platform, all course materials and labs are centralized, ensuring a structured and immersive learning experience in the fields of computer networking and cybersecurity."
     },

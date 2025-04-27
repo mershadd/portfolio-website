@@ -7,19 +7,25 @@ async function getData(filter, path, elementId) {
   parsed.sort((a, b) => b.start - a.start);
 
   for(let i = 0; i < parsed.length; i += 1){
-    let expTask = parsed[i].tasks;
+    let tasksList = parsed[i].tasks;
+    let isSkip = false;
+
     if(Object.prototype.toString.call(parsed[i].tasks) === '[object Array]') {
-      expTask = parsed[i].tasks.reduce((acc, item) => {
+      tasksList = parsed[i].tasks.reduce((acc, item) => {
         return acc + `<li>${item}</li>`;
       }, '<ul>') + '</ul>';
     }
 
-    let isSkip = false;
+    parsed[i].tools.sort();
+    const toolsList = parsed[i].tools.reduce((acc, item) => {
+      return acc + `<li>${item}</li>`;
+    }, '<ul>') + '</ul>';
+
     if(filter > 0) {
       isSkip = true;
       for(j in parsed[i].skills) {
         if (parsed[i].skills[j] === filter) {
-          isSkip = false
+          isSkip = false;
         }
       }
     }
@@ -53,7 +59,10 @@ async function getData(filter, path, elementId) {
       </h2>
       <div id="collapse${i}" class="accordion-collapse collapse">
         <div class="accordion-body">
-          ${expTask}
+          <h3>Description</h3>
+          ${tasksList}
+          <h3>Tools used</h3>
+          ${toolsList}
         </div>
       </div>
     </div>`
