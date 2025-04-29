@@ -1,4 +1,4 @@
-async function getData(filter, path, elementId) {
+async function getData(filterInput, path, elementId) {
   const allData = await fetch(path);
   const parsed = await allData.json();
   let typeBackground = "text-bg-secondary";
@@ -21,10 +21,15 @@ async function getData(filter, path, elementId) {
       return acc + `<li>${item}</li>`;
     }, '<ul>') + '</ul>';
 
-    if(filter > 0) {
+    parsed[i].skills.sort();
+    const skillsList = parsed[i].skills.reduce((acc, item) => {
+      return acc + `<li>${item}</li>`;
+    }, '<ul>') + '</ul>';
+
+    if(filterInput > 0) {
       isSkip = true;
-      for(j in parsed[i].skills) {
-        if (parsed[i].skills[j] === filter) {
+      for(j in parsed[i].filter) {
+        if (parsed[i].filter[j] === filterInput) {
           isSkip = false;
         }
       }
@@ -63,6 +68,8 @@ async function getData(filter, path, elementId) {
           ${tasksList}
           <h3>Tools used</h3>
           ${toolsList}
+          <h3>Skills Gained</h3>
+          ${skillsList}
         </div>
       </div>
     </div>`
