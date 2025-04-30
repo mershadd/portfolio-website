@@ -1,10 +1,26 @@
-async function getData(filterInput, path, elementId) {
-  const allData = await fetch(path);
+let educationData, experienceData;
+
+async function getData(pathVariable, typeVariable) {
+  const allData = await fetch(pathVariable);
   const parsed = await allData.json();
+
+  return parsed;
+}
+
+function sortData(unsortedData) {
+  unsortedData.sort((a, b) => b.start - a.start);
+
+  unsortedData.forEach((_, index, arr) => {
+    arr[index].tools.sort();
+    arr[index].skills.sort();
+  });
+}
+
+
+async function dataToAccordion(filterInput, rawData, accordionId) {
+  const parsed = rawData;
   let typeBackground = "text-bg-secondary";
   let allExperience = "";
-
-  parsed.sort((a, b) => b.start - a.start);
 
   for(let i = 0; i < parsed.length; i += 1){
     let tasksList = parsed[i].tasks;
@@ -16,12 +32,10 @@ async function getData(filterInput, path, elementId) {
       }, '<ul>') + '</ul>';
     }
 
-    parsed[i].tools.sort();
     const toolsList = parsed[i].tools.reduce((acc, item) => {
       return acc + `<li>${item}</li>`;
     }, '<ul>') + '</ul>';
 
-    parsed[i].skills.sort();
     const skillsList = parsed[i].skills.reduce((acc, item) => {
       return acc + `<li>${item}</li>`;
     }, '<ul>') + '</ul>';
@@ -56,13 +70,13 @@ async function getData(filterInput, path, elementId) {
     allExperience += `<div class="accordion-item">
       <h2 class="accordion-header">
       <span class="badge text-bg-primary d-block d-md-none"><strong>${parsed[i].type}:&nbsp</strong>${parsed[i].years}</span>
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${i}" aria-expanded="false" aria-controls="collapse${i}">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${parsed[i].id}" aria-expanded="false" aria-controls="collapse${i}">
           ${parsed[i].position} - ${parsed[i].company}
           <span class="badge ${typeBackground} d-none d-md-block ms-2">${parsed[i].type}</span>
           <span class="badge text-bg-info d-none d-md-block ms-2">${parsed[i].years}</span>
         </button>
       </h2>
-      <div id="collapse${i}" class="accordion-collapse collapse">
+      <div id="collapse${parsed[i].id}" class="accordion-collapse collapse">
         <div class="accordion-body">
           <h3>Description</h3>
           ${tasksList}
@@ -75,23 +89,36 @@ async function getData(filterInput, path, elementId) {
     </div>`
   }
 
-  document.getElementById(elementId).innerHTML = allExperience;
+  document.getElementById(accordionId).innerHTML = allExperience;
 }
 
-
 async function handleExpFilter(event, filter) {
-    event.preventDefault(); // Prevent actual navigation
+  event.preventDefault(); // Prevent actual navigation
 
 
-    const role = event.target.textContent.trim();
+  const role = event.target.textContent.trim();
     
-    document.getElementById("dropdownExperience").innerHTML = role;
-    document.getElementById("accordionExperience").innerHTML = `<div class="spinner-border text-primary" role="status">
+  document.getElementById("dropdownExperience").innerHTML = role;
+  document.getElementById("accordionExperience").innerHTML = `<div class="spinner-border text-primary" role="status">
     <span class="visually-hidden">Loading...</span>
   </div>`;
 
-    await getData(filter, "./assets/data/experienceData.json", "accordionExperience");
+  await dataToAccordion(filter, experienceData, "accordionExperience");
+};
+
+async function init() {
+  const initExperienceData = await getData('./assets/data/experienceData.json');
+  const initEducationData = await getData('./assets/data/educationData.json');
+
+  sortData(initExperienceData);
+  sortData(initEducationData);
+
+  dataToAccordion(0, initExperienceData, "accordionExperience");
+  dataToAccordion(0, initEducationData, "accordionEducation");
+
+  experienceData = initExperienceData;
+  educationData = initEducationData;
 }
 
-getData(0, "./assets/data/experienceData.json", "accordionExperience");
-getData(0, "./assets/data/educationData.json", "accordionEducation");
+
+init();

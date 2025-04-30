@@ -1,5 +1,6 @@
 [
     {
+        "id": 8,
         "position": "Associate Cloud Engineer",
         "company": "PT Bithealth Teknologi Pintar",
         "years": "Oct 2024 - Now",
@@ -28,6 +29,7 @@
         ]
     },
     {
+        "id": 9,
         "position": "Associate Software Engineer",
         "company": "PT Bithealth Teknologi Pintar",
         "years": "Nov 2023 - Oct 2024",
@@ -48,6 +50,7 @@
         ]
     },
     {
+        "id": 10,
         "position": "Consumer Monitoring System for Detecting and Preventing the Return of Dirty Dishes Using Object Detection and IoT Technology",
         "company": "Ruang Elektro",
         "years": "Nov 2023 - Dec 2023",
@@ -56,10 +59,11 @@
         "start": 23082312,
         "tools": ["Node JS", "Javascript", "HTML", "YOLOv3", "Firebase", "ESP32 Cam", "Antares"],
         "filter": [5, 11, 8, 10],
-        "skills": ["Backend Engineer", "IoT Engineer", "Computer Vision Engineer", "Embedded System Engineer"],
+        "skills": ["Frontend Engineer", "IoT Engineer", "Computer Vision Engineer", "Embedded System Engineer"],
         "tasks": "Developed a consumer monitoring system to detect and prevent the return of dirty dishes using IoT and object detection technology. The system utilized an ESP32-CAM to capture images of the canteen area, which were sent to Firebase and processed by a YOLOv3 model on a separate server to detect unreturned dishes. Detection results were forwarded to the Antares IoT platform, and a real-time web dashboard built with vanilla HTML, CSS, and JavaScript to display monitoring data."
     },
-    {   
+    {
+        "id": 11,
         "position": "Seatbelt Detection in Vehicles and Helmet Detection using YOLOv5, Faster RCNN, and RetinaNet Architecture",
         "company": "Ruang Elektro",
         "years": "Nov 2023 - Jan 2024",
@@ -72,6 +76,7 @@
         "tasks": "Developed advanced automotive safety detection systems using deep learning, focusing on seatbelt and helmet detection. Implemented YOLOv5, Faster R-CNN, and RetinaNet architectures to analyze annotated images and video inputs for real-time detection. Seatbelt detection models were trained and validated using images from Roboflow, while helmet detection used both images and video footage. Model performance was evaluated using confusion matrices to ensure accuracy and reliability in safety-critical scenarios."
     },
     {
+        "id": 12,
         "position": "Production Engineer Intern",
         "company": "PT Panasonic Manufacturing Indonesia",
         "years": "Oct 2022 - Dec 2022",
@@ -88,6 +93,7 @@
         ]
     },
     {
+        "id": 13,
         "position": "IoT Engineer Intern",
         "company": "PT Miota Internasional Teknologi",
         "years": "Jan 2022 - Apr 2022",
@@ -105,18 +111,20 @@
         ]
     },
     {
+        "id": 14,
         "position": "Patient Care: Management system application that will help users in arranging appointments with doctors.",
         "company": "PT Bithealth Teknologi Pintar and Hacktiv8",
         "years": "Mar 2024 - Jun 2024",
         "type": "Project",
         "typebg": 4,
         "start": 24032406,
-        "tools": ["Vue.JS", "HTML", "JSS", "Javascript"],
+        "tools": ["Vue JS", "HTML", "JSS", "Javascript"],
         "filter": [5],
         "skills": ["Frontend Engineer"],
         "tasks": "Single Page Application (SPA) website using Vue (set up with Vite) for a patient care management system that helps users schedule appointments with doctors. The application should include a login and register page for patient account management, with an optional Google OAuth integration for extra points. The homepage will display a list of available doctors, allowing users to view services, and includes shortcuts to a form page for scheduling appointments and an appointment history page. Features include a search bar with filtering and sorting options, and a logout button. A detail page for each doctor should provide information like name, specialty, practice address, schedule, phone number, and email, and allow authorized users to book new appointments. The new appointment page will display patient and doctor information, requiring user authorization to create an appointment. The history appointment page will list all appointments, enable users to create new ones, modify existing details, or cancel appointments, with filtering and sorting options. State management should be implemented with Pinia, and client-side errors should be displayed using SweetAlert or Toastify, avoiding window alerts. The application should ensure reactive page transitions without browser refreshes and can be deployed using services like Firebase, Netlify, or Vercel. Styling and usability are open for creativity."
     },
     {
+        "id": 15,
         "position": "Internet of Things-Based Heat Therapy Device for Menstrual Pain",
         "company": "Ruang Elektro",
         "years": "May 2023 - Jul 2023",
@@ -129,6 +137,7 @@
         "tasks": "A project aimed at designing a heat therapy device specifically for the lower abdominal area involves creating a heating element using 0.404 mm Nichrome wire based on Ohm's Law to generate heat energy. The author employs an Arduino Uno R3 as the primary microcontroller, which is connected to an ESP-01 Wi-Fi module. Additionally, a BTS7960 motor driver is utilized to control the voltage supplied to the heating element, enabling adjustable heat output according to the voltage regulated by the motor driver. The resulting prototype, intended for dysmenorrhea treatment, features a 20-minute timer and allows the heat level to be adjusted from 0% to 100%, achieving an average temperature range from 28.21°C at 0% to 53.58°C at 100%."
     },
     {
+        "id": 16,
         "position": "Design and develop an Internet of Things based water and air quality monitoring system using LPWAN network (NB-IOT and LoRaWAN)",
         "company": "Ruang Elektro",
         "years": "May 2023 - Jul 2023",
@@ -141,6 +150,7 @@
         "tasks": "Designed and developed an IoT-based water and air quality monitoring system using LPWAN technologies (LoRaWAN and NB-IoT), consisting of four custom-built sensor devices that transmit real-time environmental data to the Antares platform. Device 1 monitors pH, temperature, and turbidity with LoRa (single-hop), Device 2 uses NB-IoT to track pH and temperature via cellular networks, Device 3 measures air quality (PM2.5, PM5, PM10) using LoRa (multi-hop), and Device 4 monitors water flow and rainfall with LoRa (single-hop). Each device sends structured data packets including sensor readings, RSSI, SNR, path loss, and delay for network analysis. Built using ESP32 microcontrollers, RFM95 (LoRa), and SIM7000E (NB-IoT), with sensors like PH-4502C, DS18B20, PMS5003, YF-S201C, and a tipping bucket rain gauge, the system demonstrates a scalable solution for remote environmental monitoring in smart city, agricultural, and disaster management applications."
     },
     {
+        "id": 17,
         "position": "Internet of Things-based Solar Panel Cleaning System Using Automatic Sweeping",
         "company": "Universitas Indonesia",
         "years": "May 2022 - Dec 2022",
@@ -153,6 +163,7 @@
         "tasks": "Developed an automated solar panel cleaning system that uses sensor-based logic to determine when cleaning is needed, enhancing panel efficiency and reducing manual maintenance. The system operates along vertical solar arrays, using a DC motor controlled by a BTS7960 driver and an ultrasonic sensor, all managed by an ESP32 microcontroller. Cleaning cycles are scheduled using a programmable timer (via Blynk), allowing the system to remain on standby until the designated interval is reached. Once triggered, the motor activates and moves the cleaning mechanism across the panels, automatically stopping when the end of the array is detected. This solution provides a scalable, low-maintenance approach to keeping solar panels dust-free and operating at optimal performance."
     },    
     {
+        "id": 18,
         "position": "Automatic Parts Sorting System Using Schneider PLC Programming Based on Barcode/QR Code and Color with Factory I/O Simulation and Schneider's EcoStruxure Machine Expert Basic",
         "company": "Ruang Elektro",
         "years": "Nov 2023 - Nov 2023",
@@ -164,6 +175,7 @@
         "tasks": "Developed an advanced Automatic Parts Sorting System using Schneider's EcoStruxure Machine Expert Basic PLC programming, integrating barcode/QR code scanning and color detection for efficient material sorting. The system leverages latching, timers, and comparison blocks in its PLC logic, and is simulated using Factory I/O with a dual-stage process: initial ID-based sorting followed by color-based sorting via vision sensors. Featuring conveyors, actuators, and intuitive controls, this project showcases precision automation and smart factory simulation for streamlined operations."
     },
     {
+        "id": 19,
         "position": "Smart Door Lock System with BLE and REST API for Database Logging",
         "company": "Universitas Indonesia",
         "years": "April 2023 - May 2023",
@@ -176,6 +188,7 @@
         "tasks": "Designed and developed a Smart Door Lock System powered by Bluetooth Low Energy (BLE) and integrated with a REST API for real-time database logging. Built on the ESP32 platform, the system detects user proximity via RSSI, enabling seamless unlocking while securely logging BLE device addresses to a web server through HTTP POST requests. The locking mechanism uses a 12V Solenoid Door Lock controlled by a relay module, which is triggered by the ESP32. The web server features an HTML frontend and a PHP backend, deployed using Apache and MySQL with phpMyAdmin, all managed through XAMPP. This project enhances both convenience and security with remote monitoring and data-driven access control, and includes a performance and power consumption comparison with traditional RFID-based lock systems to demonstrate BLE's efficiency and scalability."
     },
     {
+        "id": 20,
         "position": "Arduino-Based Respiration Rate Counter with MPU6050 made with Custom Prototype PCB",
         "company": "Ruang Elektro",
         "years": "Oct 2021 - Nov 2021",
@@ -188,6 +201,7 @@
         "tasks": "Developed a  a respiration rate monitoring system using Arduino, an MPU6050 sensor, and an LCD display. The MPU6050, combining accelerometer and gyroscope functionality, detects chest movement to monitor breathing. A moving average filter processes the oscillating signal to calculate breaths per minute, which are then displayed in real-time on the LCD. The system was finalized on a custom prototype PCB with all connections soldered for stability and reliability. This project showcases a practical, non-invasive solution for tracking respiratory activity with embedded systems."
     },
     {
+        "id": 21,
         "position": "Automatic Baby BMI Calculator",
         "company": "Ruang Elektro",
         "years": "Jan 2023 - Feb 2023",
@@ -200,6 +214,7 @@
         "tasks": "One of my client requested a baby scales that can automatically calculate the BMI just by determining the weight and height of a baby. The system use arduino for calculating BMI and LCD for displays For measuring weight, the arduino use 4 load cell that connect to a junction box, and for height, the arduino use laser distance sensor."
     },
     {
+        "id": 22,
         "position": "Arduino-based Fire Detector CO2, CO, and O2 sensor",
         "company": "Ruang Elektro",
         "years": "May 2024 - Jul 2024",
@@ -212,6 +227,7 @@
         "tasks": "working on an advanced fire detection system using Arduino, integrated with DFrobot NDIR CO2 sensor, electrochemical O2 sensor, and MQ-9 sensor. This setup ensures early and accurate detection of fire hazards by monitoring key gases like CO2, CO, and O2. The system outputs data via serial communication, seamlessly displayed in Microsoft Excel, enhancing safety and response times. Excited about combining hardware and software for real-time monitoring and improved fire safety!"
     },
     {
+        "id": 23,
         "position": "IoT based Pulse Oximeter",
         "company": "Ruang Elektro",
         "years": "Jun 2021 - Jul 2021",

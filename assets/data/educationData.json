@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "position": "Electrical Engineering",
         "company": "Universitas Indonesia",
         "years": "2019 - 2023",
@@ -16,6 +17,7 @@
         ]
     },
     {
+        "id": 2,
         "position": "Natural Science",
         "company": "SMA Islam Al Azhar 3 Jakarta",
         "years": "2017 - 2019",
@@ -34,6 +36,7 @@
         ]
     },
     {
+        "id": 3,
         "position": "AWS Training and Certification",
         "company": "AWS",
         "years": "2024",
@@ -45,6 +48,7 @@
         "tasks": "List of AWS cloud skills and badge"
     },
     {
+        "id": 4,
         "position": "Fullstack Developer Program",
         "company": "Hacktiv8",
         "years": "2024",
@@ -56,6 +60,7 @@
         "tasks": "Completed an intensive 6-month Full Stack Developer Bootcamp at Hacktiv8, designed in alignment with current industry needs. The curriculum combined technical training with personal development, including 1-on-1 mentoring with professional instructors and sessions to build a growth mindset. Gained hands-on experience in both front-end and back-end development using technologies such as HTML, CSS, JavaScript, Vue.js, Bootstrap, Node.js, Express.js, GraphQL, PostgreSQL, and Sequelize. This immersive program emphasized real-world problem solving, collaborative projects, and the development of both technical and soft skills essential for a career in software engineering."
     },
     {
+        "id": 5,
         "position": "Bootcamp Machine Learning & AI for Beginner Batch 7",
         "company": "DQLab",
         "years": "2023",
@@ -67,6 +72,7 @@
         "tasks": "I completed a comprehensive course in Machine Learning & AI, which covered the end-to-end development of intelligent systems—from foundational concepts to model deployment. The program included sessions on Machine Learning & AI fundamentals, hands-on model building, hyperparameter tuning, and deployment techniques. As part of the final phase, I implemented a real-world project: Heart Disease Detection Model Deployment using Streamlit, showcasing my ability to build, optimize, and deploy machine learning models. The course also emphasized portfolio development and practical implementation, preparing me for real-world applications in AI and data-driven technologies."
     },
     {
+        "id": 6,
         "position": "Kredensial Mikro Mahasiswa Indonesia 2021: Network Security Penetration Testing",
         "company": "Universitas Indonesia",
         "years": "2022",
@@ -78,6 +84,7 @@
         "tasks": "As part of the MBKM KMMI 2021 program, I participated in the Network Security Penetration Testing course offered by the Faculty of Engineering at Universitas Indonesia in collaboration with CISCO Networking Academy. This industry-driven course is designed to equip students with practical and theoretical knowledge in cybersecurity, aligned with the demands of Industry 4.0. With a comprehensive, hands-on curriculum and expert instructors, the course prepares students for internationally recognized certifications such as Cisco CyberOps. Through the Netacad.com learning platform, all course materials and labs are centralized, ensuring a structured and immersive learning experience in the fields of computer networking and cybersecurity."
     },
     {
+        "id": 7,
         "position": "Fresh Graduate Academy: Core System Administration",
         "company": "Digital Talent Scholarship",
         "years": "2021",
