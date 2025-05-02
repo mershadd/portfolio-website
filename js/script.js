@@ -1,6 +1,6 @@
-let educationData, experienceData;
+let educationData, experienceData, awardData;
 
-async function getData(pathVariable, typeVariable) {
+async function getData(pathVariable) {
   const allData = await fetch(pathVariable);
   const parsed = await allData.json();
 
@@ -109,15 +109,19 @@ async function handleExpFilter(event, filter) {
 async function init() {
   const initExperienceData = await getData('./assets/data/experienceData.json');
   const initEducationData = await getData('./assets/data/educationData.json');
+  const initAwardData = await getData('./assets/data/awardData.json');
 
   sortData(initExperienceData);
   sortData(initEducationData);
+  sortData(initAwardData);
 
   dataToAccordion(0, initExperienceData, "accordionExperience");
   dataToAccordion(0, initEducationData, "accordionEducation");
+  dataToAccordion(0, initAwardData, "accordionAward");
 
   experienceData = initExperienceData;
   educationData = initEducationData;
+  awardData = initAwardData;
 }
 
 

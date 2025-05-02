@@ -1,0 +1,26 @@
+[
+    {
+        "id": 26,
+        "position": "Top 15 University-level National Physics Olympiad",
+        "company": "Semarak Fisika 2022",
+        "years": "Jun 2022",
+        "type": "Award",
+        "typebg": 1,
+        "start": 2206,
+        "tasks": "National Physics Olympiad for General Students",
+        "tools": [""],
+        "skills": ["Physics"]
+    },
+    {
+        "id": 27,
+        "position": "2nd Place in Computer Subject",
+        "company": "Olimpiade Sains Al Azhar",
+        "years": "Jan 2018",
+        "type": "Award",
+        "typebg": 1,
+        "start": 1801,
+        "tasks": "National Science Olympiad for Al Azhar Students",
+        "tools": [""],
+        "skills": ["Computing"]
+    }
+]
